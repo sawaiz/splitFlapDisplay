@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<environment_description cut="201503040913-441466" name="BP Gradient" align="t" editable="1" version="2014.04" unit="1" image="BP Gradient.png" backplate="1">
+	<shadows>
+	</shadows>
+	<material_assignments>
+		<material_assignment visible="" material="Ground" target="room:GroundShape">
+		</material_assignment>
+	</material_assignments>
+	<models>
+		<light use_node_pivot="1" type="directional" transformation="0.780330339482 -0.126826287755 0.612372153203 -0.126826287755 0.926776837421 0.353553088452 -0.612372153203 -0.353553088452 0.707107176903 -3762.589 -2172.334 4344.674" original_transform="1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0" name="__EnvironmentMainLight__">
+			<parameter type="double" name="RTambientTraceDistance" value="50.0">
+			</parameter>
+			<parameter type="double" name="RayTracingLightSize" value="2.0">
+			</parameter>
+			<parameter type="string" name="castsShadows" value="true">
+			</parameter>
+			<parameter type="string" name="explicitLightType" value="directional">
+			</parameter>
+			<parameter type="double4" name="lightColor" value="0.55 0.55 0.55 0.55">
+			</parameter>
+			<parameter type="double4" name="lightDirection" value="-0.612372 -0.353553 0.707107 1">
+			</parameter>
+			<parameter type="double4" name="lightPosition" value="-3783.69 -2174.21 4322.81 1">
+			</parameter>
+			<default>
+				<parameter type="double4" name="lightPosition" value="-3762.59 -2172.33 4344.67 1">
+				</parameter>
+			</default>
+		</light>
+	</models>
+	<models>
+		<import src="Environments\BP Gradient\BP Gradient.apf" original_timestamp="0.0" name="room" original_apf_unit="cm" collapse_leaf_xforms="0" original_unit="cm" unit="cm">
+			<child node="room:fileroot">
+			</child>
+		</import>
+		<group name="room:fileroot">
+			<child node="room:Ground">
+			</child>
+		</group>
+		<group name="room:Ground">
+			<child node="room:GroundShape">
+			</child>
+		</group>
+		<lod_group priority="1" name="room:GroundShape" has_spline="0">
+		</lod_group>
+	</models>
+	<materials>
+		<material type="Unlit" name="Backdrop" label="Backdrop">
+			<parameter type="double" name="backplateCloseUp" value="0.5">
+			</parameter>
+			<parameter type="double" name="backplateHorizon" value="0.0">
+			</parameter>
+			<parameter type="double" name="backplateHorizontalOffset" value="0.5">
+			</parameter>
+			<parameter type="string" name="backplateMapping" value="planar">
+			</parameter>
+			<parameter type="double3" name="backplateRotation" value="0.0 0.0 0.0">
+			</parameter>
+			<parameter type="double" name="backplateSkyOffset" value="0.0">
+			</parameter>
+			<parameter type="double" name="backplateSkyScale" value="1.0">
+			</parameter>
+			<parameter type="string" name="backplateSkyTexture" value="">
+			</parameter>
+			<parameter type="double" name="backplateSunExponent" value="128.0">
+			</parameter>
+			<parameter type="string" name="backplateSunTexture" value="">
+			</parameter>
+			<parameter type="string" name="diffuseSource" value="texture">
+			</parameter>
+			<parameter type="string" name="diffuseTexture" value="Environments\BP Gradient\env-BP Gradient.hdr">
+			</parameter>
+			<parameter type="string" name="diffuseToneMap" value="value">
+			</parameter>
+			<parameter type="string" name="iblTone" value="global">
+			</parameter>
+			<parameter type="string" name="magFilter" value="Linear">
+			</parameter>
+			<parameter type="string" name="minFilter" value="Linear">
+			</parameter>
+			<parameter type="string" name="sided" value="single">
+			</parameter>
+		</material>
+		<material type="Unlit_OC" ids="room|room" name="Ground" label="Ground">
+			<parameter type="double4" name="diffuseColor" value="0 0 0 1">
+			</parameter>
+			<parameter type="string" name="diffuseSource" value="color">
+			</parameter>
+			<parameter type="string" name="diffuseToneMap" value="value">
+			</parameter>
+			<parameter type="string" name="iblTone" value="global">
+			</parameter>
+			<parameter type="string" name="magFilter" value="Linear">
+			</parameter>
+			<parameter type="string" name="minFilter" value="Linear">
+			</parameter>
+			<parameter type="string" name="sided" value="single">
+			</parameter>
+			<parameter type="double4" name="transparencyColor" value="1 1 1 1">
+			</parameter>
+		</material>
+	</materials>
+	<lighting type="hdr" name="BP Generic">
+		<image src="Environments\BP Gradient\BP Gradient.hdr" name="backdrop">
+		</image>
+		<exposure value="8.0">
+		</exposure>
+		<parameter type="string" name="preview" value="lighting_preview.tif">
+		</parameter>
+		<parameter type="double" name="globalIBLGainValue" value="0.15">
+		</parameter>
+		<parameter type="double" name="isBackdropOverride" value="1">
+		</parameter>
+		<parameter type="double" name="fit_type" value="3">
+		</parameter>
+		<parameter type="double" name="scale" value="1.0">
+		</parameter>
+		<parameter type="double" name="offset_width" value="0.0">
+		</parameter>
+		<parameter type="double" name="offset_height" value="0.0">
+		</parameter>
+	</lighting>
+</environment_description>
