@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<environment_description cut="201503040913-441466" name="Empty Lab" align="t" editable="1" version="2014.04" unit="1" image="EmptyLab.png" backplate="0">
+	<shadows>
+	</shadows>
+	<material_assignments>
+		<material_assignment visible="" material="Miscellaneous::Image Map[5]" target="EmptyLab.apf:Walls">
+		</material_assignment>
+		<material_assignment visible="" material="Miscellaneous::Image Map[0]" target="EmptyLab.apf:Tabletop">
+		</material_assignment>
+		<material_assignment visible="" material="Miscellaneous::Image Map[3]" target="EmptyLab.apf:Table">
+		</material_assignment>
+		<material_assignment visible="" material="Miscellaneous::Image Map[4]" target="EmptyLab.apf:Ground">
+		</material_assignment>
+	</material_assignments>
+	<models>
+		<import src="Environments\EmptyLab\EmptyLab.apf" original_timestamp="0.0" name="EmptyLab.apf" original_apf_unit="cm" group_based_names="1" original_unit="cm" unit="cm">
+			<child node="EmptyLab.apf:Room">
+			</child>
+		</import>
+		<group name="EmptyLab.apf:Room">
+			<child node="EmptyLab.apf:Dome">
+			</child>
+			<child node="EmptyLab.apf:Ground">
+			</child>
+		</group>
+		<group name="EmptyLab.apf:Dome">
+			<child node="EmptyLab.apf:Walls">
+			</child>
+			<child node="EmptyLab.apf:Tabletop">
+			</child>
+			<child node="EmptyLab.apf:Table">
+			</child>
+		</group>
+		<lod_group priority="1" name="EmptyLab.apf:Walls" has_spline="0">
+		</lod_group>
+		<lod_group priority="1" name="EmptyLab.apf:Tabletop" has_spline="0">
+		</lod_group>
+		<lod_group priority="1" name="EmptyLab.apf:Table" has_spline="0">
+		</lod_group>
+		<lod_group priority="1" name="EmptyLab.apf:Ground" has_spline="0">
+		</lod_group>
+	</models>
+	<models>
+		<light use_node_pivot="1" type="directional" transformation="0.985825490512 0.00379805800452 0.167730966167 0.00379805800452 0.998982310843 -0.0449434909345 -0.167730966167 0.0449434909345 0.984807801356 -251.605 67.418 1503.01" original_transform="1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0" name="__EnvironmentMainLight__">
+			<parameter type="string" name="castsShadows" value="true">
+			</parameter>
+			<parameter type="string" name="explicitLightType" value="directional">
+			</parameter>
+			<parameter type="double4" name="lightColor" value="0.5 0.5 0.5 0.5">
+			</parameter>
+			<parameter type="double4" name="lightDirection" value="-0.167731 0.0449435 0.984808 1">
+			</parameter>
+			<parameter type="double4" name="lightPosition" value="-251.605 67.418 1503.01 1">
+			</parameter>
+		</light>
+	</models>
+	<materials name="Miscellaneous">
+		<material label="Floor" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[4]">
+			<parameter type="double" name="RTambientTraceDistance" value="300.0">
+			</parameter>
+			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">
+			</parameter>
+			<parameter type="string" name="diffuseIBL" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseLight" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseSource" value="texture">
+			</parameter>
+			<parameter type="string" name="diffuseTexture" value="Environments\EmptyLab\EmptyLab_Ground.hdr">
+			</parameter>
+			<parameter type="string" name="diffuseToneMap" value="value">
+			</parameter>
+			<parameter type="string" name="reflectReflectLight" value="true">
+			</parameter>
+			<parameter type="string" name="reflectSource" value="none">
+			</parameter>
+			<parameter type="string" name="sided" value="single">
+			</parameter>
+			<parameter type="string" name="specularIBL" value="none">
+			</parameter>
+			<parameter type="string" name="specularLight" value="none">
+			</parameter>
+			<parameter type="string" name="specularSource" value="none">
+			</parameter>
+			<parameter type="string" name="triplanarXY" value="true">
+			</parameter>
+		</material>
+		<material label="Tablesides" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[3]">
+			<parameter type="double" name="RTambientTraceDistance" value="300.0">
+			</parameter>
+			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">
+			</parameter>
+			<parameter type="string" name="diffuseIBL" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseLight" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseSource" value="texture">
+			</parameter>
+			<parameter type="string" name="diffuseTexture" value="Environments\EmptyLab\EmptyLab_Table.hdr">
+			</parameter>
+			<parameter type="string" name="diffuseToneMap" value="value">
+			</parameter>
+			<parameter type="string" name="reflectReflectLight" value="true">
+			</parameter>
+			<parameter type="string" name="reflectSource" value="none">
+			</parameter>
+			<parameter type="string" name="sided" value="single">
+			</parameter>
+			<parameter type="string" name="specularIBL" value="none">
+			</parameter>
+			<parameter type="string" name="specularLight" value="none">
+			</parameter>
+			<parameter type="string" name="specularSource" value="none">
+			</parameter>
+			<parameter type="string" name="triplanarXY" value="true">
+			</parameter>
+		</material>
+		<material label="Tabletop" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[0]">
+			<parameter type="double" name="RTambientTraceDistance" value="300.0">
+			</parameter>
+			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">
+			</parameter>
+			<parameter type="string" name="diffuseIBL" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseLight" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseSource" value="texture">
+			</parameter>
+			<parameter type="string" name="diffuseTexture" value="Environments\EmptyLab\EmptyLab_TableTop.hdr">
+			</parameter>
+			<parameter type="string" name="diffuseToneMap" value="value">
+			</parameter>
+			<parameter type="string" name="reflectReflectLight" value="true">
+			</parameter>
+			<parameter type="string" name="reflectSource" value="none">
+			</parameter>
+			<parameter type="string" name="sided" value="single">
+			</parameter>
+			<parameter type="string" name="specularIBL" value="none">
+			</parameter>
+			<parameter type="string" name="specularLight" value="none">
+			</parameter>
+			<parameter type="string" name="specularSource" value="none">
+			</parameter>
+			<parameter type="string" name="triplanarXY" value="true">
+			</parameter>
+		</material>
+		<material label="Walls" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[5]">
+			<parameter type="double" name="RTambientTraceDistance" value="300.0">
+			</parameter>
+			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">
+			</parameter>
+			<parameter type="string" name="diffuseIBL" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseLight" value="none">
+			</parameter>
+			<parameter type="string" name="diffuseSource" value="texture">
+			</parameter>
+			<parameter type="string" name="diffuseTexture" value="Environments\EmptyLab\EmptyLab_Walls.hdr">
+			</parameter>
+			<parameter type="double" name="diffuseTextureGainValue" value="1.0">
+			</parameter>
+			<parameter type="string" name="diffuseToneMap" value="value">
+			</parameter>
+			<parameter type="string" name="reflectReflectLight" value="true">
+			</parameter>
+			<parameter type="string" name="reflectSource" value="none">
+			</parameter>
+			<parameter type="string" name="sided" value="single">
+			</parameter>
+			<parameter type="string" name="specularIBL" value="none">
+			</parameter>
+			<parameter type="string" name="specularLight" value="none">
+			</parameter>
+			<parameter type="string" name="specularSource" value="none">
+			</parameter>
+			<parameter type="string" name="triplanarXY" value="true">
+			</parameter>
+		</material>
+	</materials>
+	<lighting type="hdr" name="EmptyLab-IBL">
+		<image src="Environments\EmptyLab\EmptyLab.hdr" name="backdrop">
+		</image>
+		<exposure value="9.0">
+		</exposure>
+		<parameter type="string" name="preview" value="lighting_preview.tif">
+		</parameter>
+		<parameter type="double" name="globalIBLGainValue" value="0.5">
+		</parameter>
+		<parameter type="double" name="RayTracingReflectIBLMaps" value="0.0">
+		</parameter>
+		<parameter type="double" name="isBackdropOverride" value="1">
+		</parameter>
+	</lighting>
+</environment_description>
