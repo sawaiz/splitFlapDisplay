@@ -79,7 +79,7 @@
 			<parameter type="string" name="sided" value="single">
 			</parameter>
 		</material>
-		<material label="Ground" type="Unlit_OC" ids="room|room" name="Ground">
+		<material type="Unlit_OC" ids="room|room" name="Ground" label="Ground">
 			<parameter type="double4" name="diffuseColor" value="0 0 0 1">
 			</parameter>
 			<parameter type="string" name="diffuseSource" value="color">

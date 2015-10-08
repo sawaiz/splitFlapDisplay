@@ -55,7 +55,7 @@
 		</light>
 	</models>
 	<materials name="Miscellaneous">
-		<material label="Floor" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[4]">
+		<material type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[4]" label="Floor">
 			<parameter type="double" name="RTambientTraceDistance" value="300.0">
 			</parameter>
 			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">
@@ -85,7 +85,7 @@
 			<parameter type="string" name="triplanarXY" value="true">
 			</parameter>
 		</material>
-		<material label="Tablesides" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[3]">
+		<material type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[3]" label="Tablesides">
 			<parameter type="double" name="RTambientTraceDistance" value="300.0">
 			</parameter>
 			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">
@@ -115,7 +115,7 @@
 			<parameter type="string" name="triplanarXY" value="true">
 			</parameter>
 		</material>
-		<material label="Tabletop" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[0]">
+		<material type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[0]" label="Tabletop">
 			<parameter type="double" name="RTambientTraceDistance" value="300.0">
 			</parameter>
 			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">
@@ -145,7 +145,7 @@
 			<parameter type="string" name="triplanarXY" value="true">
 			</parameter>
 		</material>
-		<material label="Walls" type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[5]">
+		<material type="A3S::Unlit" ids="EmptyLab.apf|EmptyLab.apf" name="Image Map[5]" label="Walls">
 			<parameter type="double" name="RTambientTraceDistance" value="300.0">
 			</parameter>
 			<parameter type="double" name="RTglobalIlluminationIntensity" value="0.3">

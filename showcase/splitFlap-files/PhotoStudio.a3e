@@ -59,7 +59,7 @@
 		</lod_group>
 	</models>
 	<materials>
-		<material label="Dome" type="Unlit_DT" ids="PhotoStudio.apf" name="Dome">
+		<material type="Unlit_DT" ids="PhotoStudio.apf" name="Dome" label="Dome">
 			<parameter type="affineMatrix" name="diffuseProjMatrix" value="1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 -0.0 -0.0 -672.079234919">
 			</parameter>
 			<parameter type="string" name="diffuseProjection" value="none">
@@ -81,7 +81,7 @@
 			<parameter type="string" name="sided" value="single">
 			</parameter>
 		</material>
-		<material label="Ground" type="Unlit_DT" ids="PhotoStudio.apf" name="Ground">
+		<material type="Unlit_DT" ids="PhotoStudio.apf" name="Ground" label="Ground">
 			<parameter type="affineMatrix" name="diffuseProjMatrix" value="1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 -0.0 -0.0 -672.079234919">
 			</parameter>
 			<parameter type="string" name="diffuseProjection" value="none">
