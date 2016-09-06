@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-21112012-104944";"";
+"REFERENCE";"75867131LF";"";
+"TraceParts.PartTitle";"Quickie® Double Row, 6 Positions, 2.54 mm (0.1 in.), Right Angle, Shrouded Header 0.76 µm (30 µin.) Gold or GXT™ Plating";"";
+"TraceParts.InstanceId";"10-21112012-104944DZ8L1RNOQ5ONEHMJIB21Z8RHC";"";
+"DESIGN";"Quickie® Double Row, 6 Positions, 2.54 mm (0.1 in.), Right Angle, Shrouded Header 0.76 µm (30 µin.) Gold or GXT™ Plating";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"FCI";"";
+"TraceParts.PartVersion";"1.0.2";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"FCI:/F_FCI/10-21112012-104944";"";
